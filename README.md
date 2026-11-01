@@ -25,6 +25,20 @@ plugin_manager install_bundle target "<本仓库的绝对路径>"
 
 或者把它放进 profile 的依赖后，用 Loader 补丁 `message-clock` 启用（`cordis.patch.yml` 已随包提供）。
 
+### 从 npm 安装 / From npm
+
+已发布到 npm：<https://www.npmjs.com/package/dsh-message-clock>
+
+```bash
+npm i dsh-message-clock
+```
+
+装好后把 `node_modules/dsh-message-clock` 交给 `plugin_manager install_bundle`，或在 profile 里把它作为依赖并用 Loader 补丁启用。
+
+### 从 GitHub Release 安装 / From GitHub Release
+
+下载 <https://github.com/elunstark/dsh/releases/download/v1.0.0/dsh-message-clock-1.0.0.tgz> 解压后指向解压目录安装。
+
 安装成功后 Loader 里会出现一行：
 
 ```yaml
