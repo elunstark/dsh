@@ -6,6 +6,14 @@
   "description": "Current local time in every model step plus timestamps in the Chat UI.",
   "keywords": ["dsh", "dsh-plugin", "clock", "timestamp", "time"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elunstark/dsh.git"
+  },
+  "homepage": "https://github.com/elunstark/dsh#readme",
+  "bugs": {
+    "url": "https://github.com/elunstark/dsh/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
