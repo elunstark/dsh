@@ -1,0 +1,3 @@
+- insert:
+    - id: message-clock
+      name: 'dsh-message-clock'

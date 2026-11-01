@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Message Clock",
+    "description": "Reports the current local time to the model on every step, shows a live clock under the composer, and stamps each completed turn with its local time."
+  }
+}
