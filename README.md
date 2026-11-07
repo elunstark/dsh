@@ -90,6 +90,19 @@ Client 半（`client.js`）注册两个 Slot：
 - `turnTail` 的时间来自 `TurnLocation` 对象；不同 Harness 版本字段命名可能不同，插件会自适应扫描，读不到时不渲染。
 - 历史消息的**发送时刻**不会进入模型上下文（这是 Harness 的行为，不是本插件能改的）；插件只保证模型知道“现在几点”。
 
+## 更新记录 / Changelog
+
+### 1.0.1
+
+- README 补充 npm / GitHub Release 两种安装方式（npm 页面同步显示）。
+- 无功能性变更，代码与 1.0.0 完全一致。
+
+### 1.0.0
+
+- Host：`ctx.systemPrompt.context` 每步注入当前本地时间。
+- Client：`conversation.composer.dock` 实时时钟；`conversation.chat.turnTail` 每轮起止时间戳。
+
 ## License
 
 MIT
+

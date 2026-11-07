@@ -1,6 +1,6 @@
 {
   "name": "dsh-message-clock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Current local time in every model step plus timestamps in the Chat UI.",
   "keywords": ["dsh", "dsh-plugin", "clock", "timestamp", "time"],
